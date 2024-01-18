@@ -1,0 +1,30 @@
+/* src/css/TrustedSources.css */
+
+.trusted-sources-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .source {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .source-logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .source-button {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  

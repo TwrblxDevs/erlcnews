@@ -193,6 +193,8 @@ import './App.css';
 import logo from './assets/Logo.png';
 // import DiscordWidget from './components/Discord';
 import ERLCWikiLogo from './assets/trustedsources/ERLC_WIKI512.png'
+import Creators from './components/Creators';
+import Email from './components/Contact'
 
 const App = () => {
   return (
@@ -239,6 +241,16 @@ const App = () => {
                   Trusted Sources
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/creators" activeClassName="active">
+                  Content Creators
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact" activeClassName="active">
+                  Contact Us
+                </NavLink>
+              </li>
               {/* <li>
               <NavLink to="/discord" activeClassName="active">
                 Discord
@@ -257,6 +269,8 @@ const App = () => {
           <Route path="/rules" element={<Rules />} />
           {/* <Route path="/discord" element={<DiscordWidget />} /> */}
           <Route path="/trusted-sources" element={<TrustedSources />} />
+          <Route path="/creators" element={<Creators />} />
+          <Route path="/contact" element={<Email />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

@@ -199,6 +199,8 @@ import Email from './components/Contact'
 import Wiki from "./components/redirects/erlcwiki"
 import Discord from "./components/redirects/discord"
 
+import Partners from "./components/partners"
+
 const App = () => {
   return (
     <Router>
@@ -254,6 +256,11 @@ const App = () => {
                   Contact Us
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/partners" activeClassName="active">
+                  Partners
+                </NavLink>
+              </li>
               {/* <li>
               <NavLink to="/discord" activeClassName="active">
                 Discord
@@ -276,6 +283,7 @@ const App = () => {
           <Route path="/contact" element={<Email />} />
           <Route path="/erlcwiki" element={<Wiki />} />
           <Route path="/discord" element={<Discord />} />
+          <Route path='/partners' element={<Partners />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

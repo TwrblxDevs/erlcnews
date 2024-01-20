@@ -322,7 +322,7 @@ const LandingPage = () => {
       <div className="content-container">
         <div className="text-content">
           <div className="hero-content">
-            <h1>Welcome to ER:LC Update News!</h1>
+            <h1>Welcome to ER:LC Update News</h1>
             <p>
               Stay tuned for the latest updates, exciting teasers, upcoming events,
             </p>

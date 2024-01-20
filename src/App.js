@@ -196,6 +196,9 @@ import ERLCWikiLogo from './assets/trustedsources/ERLC_WIKI512.png'
 import Creators from './components/Creators';
 import Email from './components/Contact'
 
+import Wiki from "./components/redirects/erlcwiki"
+import Discord from "./components/redirects/discord"
+
 const App = () => {
   return (
     <Router>
@@ -271,6 +274,8 @@ const App = () => {
           <Route path="/trusted-sources" element={<TrustedSources />} />
           <Route path="/creators" element={<Creators />} />
           <Route path="/contact" element={<Email />} />
+          <Route path="/erlcwiki" element={<Wiki />} />
+          <Route path="/discord" element={<Discord />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

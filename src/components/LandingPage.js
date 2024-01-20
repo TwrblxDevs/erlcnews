@@ -326,9 +326,7 @@ const LandingPage = () => {
             <p>
               Stay tuned for the latest updates, exciting teasers, upcoming events,
             </p>
-            <p>
-              and important announcements related to ER:LC.
-            </p>
+            <p>and important announcements related to ER:LC.</p>
             <a href="https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County#" className='buttonA'>Play ER:LC</a>
             <a href="https://www.roblox.com/groups/4328109/Police-Roleplay-Community" className='buttonE'>PRC Roblox Group</a>
           </div>

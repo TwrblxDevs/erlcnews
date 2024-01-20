@@ -14,6 +14,9 @@ const TrustedSources = () => {
         <a href="https://discord.com/invite/D5emTKEd" className="source-button" target="_blank" rel="noopener noreferrer">
         ER:LC Wiki Discord
         </a>
+        <a href="/erlcwiki" className="source-button" target="_blank" rel="noopener noreferrer">
+          ER:LC Wiki Page
+        </a>
       </div>
       <div className="source">
         <img src={PRC} alt="Source 1 Logo" className="source-logo" />
